@@ -6,6 +6,7 @@ import "./Ticket.css";
 
 function Ticket(){
     const Selector=useSelector(s=>s.Monuments.book);
+    console.log("hi",Selector)
     const Each=useSelector(s=>s.Monuments.each)
    
     return(
@@ -25,7 +26,7 @@ function Ticket(){
             <div>Price :<span> ₹ {Selector.price}</span></div>
         </div>
             <div className="Code_Container">
-                <div><QRCode value={`Place : ${Selector.place_name} \n price : ₹${Selector.price} \n Date of visit : ${Selector.date_of_visit} \n valid till: ${Selector.valid_till} `}/></div>
+                <div><QRCode value={` Name: ${Selector.name} \n Adult : ${Selector.adult_cnt} \n Child :${Selector.child_cnt} \n Place : ${Selector.place_name} \n price : ₹${Selector.price} \n Date of visit : ${Selector.date_of_visit} \n valid till: ${Selector.valid_till} `}/></div>
             </div>
 
            
