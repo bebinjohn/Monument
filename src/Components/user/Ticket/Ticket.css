@@ -1,0 +1,48 @@
+.Whole_container {
+  background-color: #f0204d;
+  height: 100vh;
+  justify-content: center;
+  align-items: center;
+  display: flex;
+  width: 100vw;
+}
+.Ticket_container {
+  display: flex;
+  margin-top: 10px;
+}
+.Ticket_Section,
+.Code_Container {
+  background-color: white;
+  padding: 10px;
+  margin-left: 10px;
+  border-radius: 5px;
+}
+.Code_Container > div {
+  margin-top: 20px;
+}
+.Ticket_Section {
+  width: 500px;
+}
+.Ticket_Section > div {
+  margin: 10px;
+}
+.Whole_container h1 {
+  color: black;
+  font-weight: bold;
+  text-align: center;
+}
+.Button {
+  background-color: #fff5ec;
+  width: 150px;
+  height: 50px;
+  border-radius: 8px;
+  margin-top: 10px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  cursor: pointer;
+}
+.Button_container {
+  display: flex;
+  justify-content: center;
+}

@@ -1,0 +1,88 @@
+.Navbar_background {
+  background-color: #fe043c;
+  position: fixed;
+  width: 100%;
+  z-index: 1;
+  display: flex;
+  justify-content: space-evenly;
+  font-family: "Poppins";
+  padding: 10px;
+  transform: translateY(-100px);
+  transition: all 0.3s;
+}
+
+.Header_Input_Navbar {
+  position: relative;
+  width: 50%;
+}
+.Header_Input_Navbar > input {
+  width: 100%;
+  height: 50px;
+  border: 0;
+  padding: 10px;
+}
+.Header_Input_Navbar > input:focus {
+  outline: none;
+}
+.Header_Input_Navbar > div {
+  position: absolute;
+  top: 0;
+  background: #ee5173;
+  box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+  border-radius: 60px 0px 0px 0px;
+  width: 100px;
+  height: 95%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  right: 0;
+  cursor: pointer;
+}
+.Header_Input_Navbar > div > div {
+  color: white;
+}
+.Navbar_logo {
+  padding: 8px;
+  padding-top: 10px;
+  background-color: white;
+  border-radius: 50%;
+  cursor: pointer;
+}
+.Navbar_logo > div {
+  width: 25px;
+}
+
+@media only screen and (max-width: 600px) {
+  .Header_Input_Navbar > div {
+    width: 25px;
+    height: 30px;
+  }
+  .select_Navbar {
+    width: 150px;
+    height: 30px;
+  }
+  .Navbar_background {
+    padding: 8px;
+  }
+  .Navbar_logo {
+    padding: 1px;
+  }
+  .Navbar_logo {
+    height: 30px;
+  }
+  .Navbar_logo > div {
+    width: 8px;
+    height: 5px;
+  }
+  .Header_Input_Navbar > input {
+    height: 30px;
+    font-size: 1em;
+  }
+  .Navbar_logo > img {
+    width: 20px;
+  }
+  .Navbar_background > h1 {
+    color: white;
+    font-size: 1em;
+  }
+}

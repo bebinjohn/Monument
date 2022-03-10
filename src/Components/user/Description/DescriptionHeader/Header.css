@@ -1,0 +1,58 @@
+.Description_Header {
+  display: flex;
+  justify-content: space-between;
+  width: 100%;
+  padding: 10px;
+}
+.Description_Header > img {
+  width: 50%;
+  border-radius: 5px;
+}
+/* .Img_container {
+  width: 500px;
+  height: 500px;
+} */
+.Description_Section {
+  background: #fff5ec;
+  font-family: "Poppins";
+}
+.Description_content {
+  margin-left: 2%;
+  margin-top: 2%;
+}
+.Description_content > h1 {
+  text-transform: uppercase;
+  color: #2e266f;
+}
+.Description_content > p {
+  font-size: 1em;
+  line-height: 1.7em;
+  width: 95%;
+}
+.Button_new {
+  background-color: #fe043c;
+  width: 100px;
+  height: 50px;
+  margin-top: 10px;
+  display: flex;
+  border-radius: 8px;
+  justify-content: center;
+  align-items: center;
+  cursor: pointer;
+}
+
+.Button_new > div {
+  color: white;
+}
+@media only screen and (max-width: 600px) {
+  .Description_Header {
+    flex-direction: column;
+  }
+  .Description_Header > img {
+    width: 100%;
+  }
+  .Button_new {
+    width: 80px;
+    height: 30px;
+  }
+}

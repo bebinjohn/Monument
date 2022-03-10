@@ -1,0 +1,89 @@
+.admin-form {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-between;
+  padding: 0.5rem;
+  background-color: #fff5ec;
+  padding-top: 5%;
+}
+.Heading_Form {
+  font-family: Poppins;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 2em;
+  line-height: 90px;
+  text-transform: capitalize;
+  color: #2e266f;
+}
+
+.admin-form-row {
+  display: grid;
+  grid-template-columns: [labels] auto [controls] 1fr;
+  align-items: center;
+  grid-auto-flow: row;
+  grid-gap: 0.8em;
+  padding: 1rem;
+}
+.wrapper {
+  background: #f5dec8;
+  font-family: "Poppins", sans-serif;
+  font-size: medium;
+  padding: 1rem;
+  margin-top: 20px;
+}
+.admin-form-row > label {
+  grid-column: labels;
+  grid-row: auto;
+  font-weight: 600;
+}
+.admin-form-row > input,
+.admin-form-row > textarea {
+  grid-column: controls;
+  grid-row: auto;
+  border: none;
+  padding: 1em;
+}
+.admin-form-row input {
+  height: 10%;
+  width: 50%;
+  border-radius: 5px;
+  padding: 1.2rem;
+}
+.admin-form-row select {
+  width: 150px;
+  border-radius: 5px;
+  padding: 0.5rem;
+}
+.admin-form-row textarea {
+  width: 350px;
+  height: 50px;
+}
+.button_class {
+  border-radius: 15px;
+  width: 400px;
+  padding: 0.5rem;
+  background: white;
+  font-size: medium;
+}
+.button_class:hover {
+  background-color: #fe043c;
+}
+#name {
+  display: flex;
+  flex-direction: column;
+  align-items: start;
+  padding: 1.2rem;
+}
+#name > input {
+  padding: 1.2rem;
+  width: 40%;
+  height: 20px;
+}
+#description {
+  display: flex;
+  flex-direction: column;
+  align-items: start;
+  padding: 1.2rem;
+  resize: none;
+}

@@ -1,0 +1,62 @@
+.Info_Nav {
+  display: flex;
+  justify-content: space-around;
+}
+.Info_Nav > div {
+  cursor: pointer;
+  color: #2e266f;
+  font-family: "Poppins";
+}
+.Info_heading {
+  font-size: 1.5em;
+  font-weight: bold;
+}
+
+.Nearest_Content > div {
+  display: grid;
+  grid-template-columns: 40% 20% 40%;
+  margin-top: 5px;
+}
+.Info_facilites {
+  display: flex;
+  justify-content: space-around;
+}
+.Info_facilites > div {
+  display: flex;
+}
+.Info_facilites > div > div {
+  color: white;
+  background: #2e266f;
+  padding: 2px;
+  font-size: 0.8em;
+  border-radius: 50%;
+  margin-right: 2px;
+}
+.Table_Container {
+  background: #ffffff;
+  margin-top: 20px;
+  border-radius: 8px 8px 8px 0px;
+  width: 50%;
+}
+.Table_heading {
+  background-color: #fe043c;
+  color: white;
+  padding: 10px;
+  text-align: center;
+}
+.Info_section_heading {
+  font-family: Poppins;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 2em;
+  line-height: 90px;
+  text-transform: capitalize;
+  color: #2e266f;
+  text-align: center;
+}
+
+@media only screen and (max-width: 600px) {
+  .Table_Container {
+    width: 80%;
+  }
+}

@@ -1,0 +1,143 @@
+.fullBook > h1 {
+  text-align: center;
+  color: black;
+}
+
+.details,
+.displayDetails {
+  border: 2px solid black;
+  border-radius: 10px;
+  width: 600px;
+  margin: 0 auto;
+  padding: 20px;
+  background-color: #fff5ec;
+  margin-top: 2%;
+}
+
+.details > h2,
+.displayDetails > h2 {
+  text-align: center;
+  font-size: 30px;
+}
+
+.form > div {
+  padding: 5px;
+  font-size: 20px;
+  text-align: center;
+  display: grid;
+  grid-template-columns: 50% 50%;
+  margin-bottom: 2%;
+}
+.form > div > input {
+  width: 80%;
+}
+
+.form > div > label {
+  justify-items: right;
+}
+
+.form > div:last-child {
+  display: flex;
+  justify-content: center;
+}
+
+.nextbtn {
+  margin-top: 2%;
+  background-color: red;
+  padding: 1% 2% 1% 2%;
+  color: white;
+  border-radius: 5px;
+  font-weight: bold;
+  cursor: pointer;
+  width: 15%;
+}
+
+.displayDetails > div {
+  margin-left: 20%;
+}
+
+.displayDetails > div > div {
+  display: grid;
+  grid-template-columns: 50% 50%;
+  font-size: 18px;
+}
+
+.displayDetails > div > div > h4 {
+  margin: 10px;
+}
+
+.editbtn {
+  margin-top: 10%;
+  background-color: red;
+  padding: 2% 2% 2% 2%;
+  color: white;
+  border-radius: 5px;
+  font-weight: bold;
+  cursor: pointer;
+  font-size: 17px;
+  width: 75%;
+  margin-left: -15%;
+}
+
+.bookticketbtn {
+  margin-top: 10%;
+  background-color: rgb(19, 170, 19);
+  padding: 2% 2% 2% 2%;
+  color: white;
+  border-radius: 5px;
+  font-weight: bold;
+  cursor: pointer;
+  font-size: 17px;
+  width: 75%;
+}
+
+@media only screen and (max-width: 600px) {
+  .details,
+  .displayDetails {
+    width: 90%;
+    padding: 2px;
+    margin-top: 2%;
+  }
+
+  .details > h2,
+  .displayDetails > h2 {
+    font-size: 23px;
+  }
+
+  .form > div {
+    font-size: 18px;
+    text-align: left;
+    display: flex;
+    flex-direction: column;
+  }
+  .form > div > input {
+    margin-top: 2%;
+    width: 80%;
+  }
+
+  .form > div:last-child {
+    margin-left: 40%;
+  }
+
+  .nextbtn {
+    width: 30%;
+  }
+
+  .displayDetails > div {
+    margin-left: 10%;
+  }
+
+  .displayDetails > div > div > h4 {
+    margin: 10px;
+  }
+
+  .editbtn {
+    margin-left: 0%;
+    margin-bottom: 10%;
+  }
+
+  .bookticketbtn {
+    font-size: 15px;
+    margin-bottom: 10%;
+  }
+}
